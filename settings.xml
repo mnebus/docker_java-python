@@ -8,4 +8,24 @@
       <password>${env.BT_API_TOKEN}</password>
     </server>
   </servers>
+  <profiles>
+    <profile>
+      <id>au-tmc-ext</id>
+      <repositories>
+        <repository>
+          <id>au-tmc-ext</id>
+          <url>https://autonomic.bintray.com/au-tmc-ext</url>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <id>au-tmc-ext</id>
+          <url>https://autonomic.bintray.com/au-tmc-ext</url>
+        </pluginRepository>
+      </pluginRepositories>
+    </profile>
+  </profiles>
+  <activeProfiles>
+    <activeProfile>au-tmc-ext</activeProfile>
+  </activeProfiles>
 </settings>
