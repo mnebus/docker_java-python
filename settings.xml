@@ -10,22 +10,22 @@
   </servers>
   <profiles>
     <profile>
-      <id>au-tmc-ext</id>
+      <id>au-tmc-repo</id>
       <repositories>
         <repository>
-          <id>au-tmc-ext</id>
+          <id>au-tmc-repo</id>
           <url>https://autonomic.bintray.com/au-tmc-ext</url>
         </repository>
       </repositories>
       <pluginRepositories>
         <pluginRepository>
-          <id>au-tmc-ext</id>
+          <id>au-tmc-repo</id>
           <url>https://autonomic.bintray.com/au-tmc-ext</url>
         </pluginRepository>
       </pluginRepositories>
     </profile>
   </profiles>
   <activeProfiles>
-    <activeProfile>au-tmc-ext</activeProfile>
+    <activeProfile>au-tmc-repo</activeProfile>
   </activeProfiles>
 </settings>
